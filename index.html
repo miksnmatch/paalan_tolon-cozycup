@@ -1,49 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>CozyCup Café</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CozyCup Café</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="img/logo.png" alt="CozyCup Café Logo">
-            </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
-        <p>Discover Your Perfect Brew</p>
-        <a href="#menu" class="cta-button">Explore Menu</a>
-    </section>
+<header>
+  <nav>
+    <div class="logo">
+      <img src="https://github.com/miksnmatch/paalan_tolon-cozycup/blob/main/img/logo.png?raw=true" alt="CozyCup Cafe Logo" />
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <!-- Add menu items here -->
-    </section>
+<section id="home" class="hero">
+  <div class="container">
+    <h1>Welcome to CozyCup Café</h1>
+    <p>Your daily dose of comfort, coffee, and calm ☕</p>
+    <a href="#menu" class="btn">View Menu</a>
+  </div>
+</section>
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Discover the story behind CozyCup Café...</p>
-    </section>
+<section id="menu">
+  <div class="container">
+    <div class="section-title">
+      <h2>Our Menu</h2>
+      <p>Handcrafted drinks & cozy favorites</p>
+    </div>
 
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
-    </section>
+    <div class="menu-grid">
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a">
+        <h3>Espresso</h3>
+        <p>Rich and bold classic espresso</p>
+        <span class="price">₱120</span>
+      </div>
 
-    <footer>
-        <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
-    </footer>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93">
+        <h3>Cappuccino</h3>
+        <p>Espresso with steamed milk foam</p>
+        <span class="price">₱150</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+        <h3>Caramel Latte</h3>
+        <p>Smooth latte with caramel sweetness</p>
+        <span class="price">₱170</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c">
+        <h3>Chocolate Muffin</h3>
+        <p>Soft baked muffin with cocoa chunks</p>
+        <span class="price">₱95</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container about">
+    <div class="section-title">
+      <h2>About CozyCup</h2>
+    </div>
+    <p>
+      CozyCup Café is a warm neighborhood coffee house built for people who love slow mornings, meaningful conversations, and perfectly brewed coffee.
+    </p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container contact">
+    <div class="section-title">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you</p>
+    </div>
+
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 CozyCup Café. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
